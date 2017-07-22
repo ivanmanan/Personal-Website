@@ -15,7 +15,7 @@ class App extends Component {
 	    {
 		title: "Bio",
 		photo: "/images/ivan.jpg",
-		link: "https://www.linkedin.com/in/ivan-manan/",
+		link: "#",
 		overview: "I am a student at UCLA and an aspiring full-stack engineer.",
 		info: "I enjoy traveling and exploring new places.",
 		index: 0
@@ -24,7 +24,7 @@ class App extends Component {
 		title: "Manan's Movies",
 		// Photo will be a screenshot of my project
 		photo: "/images/construction.jpeg",
-		link: "localhost",
+		link: "#",
 		overview: "My personal movie reviews.",
 		info: "I have a passion for great films.",
 		index: 1
@@ -32,18 +32,18 @@ class App extends Component {
 	    {
 		title: "In Development",
 		photo: "/images/construction.jpeg",
-		link: "localhost",
+		link: "#",
 		overview: "???",
 		info: "???",
 		index: 2
 	    },
 	    {
 		title: "Emacs Init File",
-		// Photo will be screenshot of the Emacs display
-		photo: "/images/construction.jpeg",
+		// Photo needs to have more clarity
+		photo: "/images/emacs_display.png",
 		link: "https://github.com/ivanmanan/emacs/blob/master/.emacs",
-		overview: "This is my Emacs settings.",
-		info: "I use this Emacs Lisp to develop anything.",
+		overview: "This is my Emacs display.",
+		info: "I use this Emacs Lisp file to develop anything.",
 		index: 3
 	    }
 	]})

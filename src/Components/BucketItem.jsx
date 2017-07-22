@@ -2,13 +2,11 @@ import React, { Component } from "react";
 import "./styles.css";
 
 // Template for containers
-// For last template: need to remove the filled-circle spans
-
 class BucketItem extends Component {
     render() {
 	switch(this.props.project.index) {
-
-	    // Remove clickable image and induce buffer for phones
+	
+            // Remove clickable image and induce buffer for phones
 	    case 0:
 		return (
 		    <div className="container">
@@ -25,7 +23,6 @@ class BucketItem extends Component {
 					col-md-offset-2
 					col-xs-offset-2
 					marginalized">
-
 					<li>{this.props.project.overview}</li>
 					<li>{this.props.project.info}</li>
 				    </div>
@@ -53,14 +50,15 @@ class BucketItem extends Component {
 				    <h1>{this.props.project.title}</h1>
 
 				    <div>
-					<img src={this.props.project.photo}/>
+					<a href={this.props.project.link} target="_blank">
+					    <img src={this.props.project.photo}/>
+					</a>
 				    </div>
 
 				    <div className="text-left
 					col-md-offset-2
 					col-xs-offset-2
 					marginalized">
-
 					<li>{this.props.project.overview}</li>
 					<li>{this.props.project.info}</li>
 				    </div>
@@ -77,7 +75,7 @@ class BucketItem extends Component {
 		    </div>
 		);		
 
-	    // Must change the length every new project insert
+	    // Must change the indices every new project insert
 	    // Remove trailing bulletpoints
 	    case 3:
 		return (
@@ -88,7 +86,9 @@ class BucketItem extends Component {
 				    <h1>{this.props.project.title}</h1>
 
 				    <div>
-					<img src={this.props.project.photo}/>
+					<a href={this.props.project.link} target="_blank">
+					    <img src={this.props.project.photo}/>
+					</a>
 				    </div>
 
 				    <div className="text-left
