@@ -43,7 +43,7 @@ class App extends Component {
 		photo: "/images/emacs_display.png",
 		link: "https://github.com/ivanmanan/emacs/blob/master/.emacs",
 		overview: "This is my Emacs display.",
-		info: "I use this Emacs Lisp file to develop everything.",
+		info: "Click on the image above for my Emacs Lisp file.",
 		index: 3
 	    }
 	]})
