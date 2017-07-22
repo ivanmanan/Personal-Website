@@ -1,2 +1,2 @@
 # personal-website
-Personal website to host my portfolio.
+Personal website to host my projects.
