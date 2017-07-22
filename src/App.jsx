@@ -38,7 +38,7 @@ class App extends Component {
 		index: 2
 	    },
 	    {
-		title: "Emacs Init File",
+		title: "Emacs Init",
 		// Photo needs to have more clarity
 		photo: "/images/emacs_display.png",
 		link: "https://github.com/ivanmanan/emacs/blob/master/.emacs",
