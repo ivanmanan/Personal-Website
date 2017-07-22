@@ -5,6 +5,8 @@ import Bucket from "./Components/Bucket.jsx";
 // This file passes down all the info to the other templating
 // I want to insert my images into the projects array
 
+// Must make the photos a clickable link
+
 
 class App extends Component {
     constructor() {
@@ -18,19 +20,27 @@ class App extends Component {
 	this.setState({projects: [
 	    {
 		title: "Bio",
-		info: "Student at UCLA. Aspiring full-stack engineer."
+		photo: "img src='/images/ivan.jpg'",
+		overview: "I am a student at UCLA aspiring to become a full-stack engineer.",
+		info: "Besides engineering, I enjoy traveling, hiking, and watching movies."
 	    },
 	    {
 		title: "Mad Manan's Movie Review",
-		info: "Ivan's personal movie reviews."
+		photo: "img src='/images/construction.jpeg",
+		overview: "Ivan's personal movie reviews.",
+		info: "I absolutely enjoy watching movies, so I like to share my personal reviews on them."
 	    },
 	    {
 		title: "To Be Determined",
+		photo: "img src='/images/construction.jpeg",
+		overview: "???",
 		info: "???"
 	    },
 	    {
 		title: "Emacs Init File",
-		info: "This is the Emacs configuration I use to develop anything."
+		photo: "img src='/images/construction.jpeg",
+		overview: "This is my Emacs settings.",
+		info: "I always use this Emacs Lisp file to develop anything."
 	    }
 	]})
     }
