@@ -1,23 +1,35 @@
 .projectItem{
     background-color: silver;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
 }
 .projectItem h1{
-    font-size: 60px;
+    font-size: 110px;
+    text-shadow: 2px 2px white;
 }
 .projectItem li{
     font-size: 20px;
     padding-left: 26px;
     text-indent: -26px;
+    margin-top: 15px;
+}
+.projectItem img{
+    width: 600px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .trailing li{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    font-size: 20px;
+
+    color: mintcream;
+    /*color: #CFB53B;*/
+    text-shadow: 0.5px 0.5px black;
 }
 .trailing ul{
     list-style-type: none;
@@ -26,4 +38,7 @@
 }
 .marginalized{
     margin-right: 120px;
+}
+.buffer{
+    margin-top: 10px;
 }

@@ -1,4 +1,3 @@
-/* CSS file */
 body{
     font-family: times-new-roman;
     background-color: slategray;
@@ -12,6 +11,7 @@ body{
     margin-left: 25px;
     font-size: 45px;
     color: white;
+    text-shadow: 0px 0.5px azure;
 }
 .header-links li{
     margin-left: 30px;

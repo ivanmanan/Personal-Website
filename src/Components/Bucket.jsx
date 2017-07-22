@@ -11,7 +11,7 @@ class Bucket extends Component {
 	if(this.props.projects) {
 	    bucketItems = this.props.projects.map(project => {
 		return (
-		    <BucketItem key={project.title} project={project} />
+		    <BucketItem key={project.index} project={project} />
 		);
 	    });
 	}

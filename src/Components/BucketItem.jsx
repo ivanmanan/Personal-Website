@@ -2,40 +2,109 @@ import React, { Component } from "react";
 import "./styles.css";
 
 // Template for containers
+// For last template: need to remove the filled-circle spans
 
 class BucketItem extends Component {
     render() {
-	console.log(this.props);
-	return (
-	    <div className="container">
-	        <div className="row">
-	            <div className="col-md-8 col-md-offset-2 text-center">
-			<div className="projectItem">
-			    <h1>{this.props.project.title}</h1>
+	switch(this.props.project.index) {
 
-			    <p>{this.props.project.photo}</p>
+	    // Remove clickable image and induce buffer for phones
+	    case 0:
+		return (
+		    <div className="container">
+			<div className="row">
+			    <div className="col-md-8 col-md-offset-2 text-center">
+				<div className="projectItem">
+				    <h1>{this.props.project.title}</h1>
 
-			    <div className="text-left
-				col-md-offset-2
-				col-xs-offset-2
-				marginalized">
+				    <div>
+					<img src={this.props.project.photo}/>
+				    </div>
 
-				<li>{this.props.project.overview}</li>
-				<li>{this.props.project.info}</li>
+				    <div className="text-left
+					col-md-offset-2
+					col-xs-offset-2
+					marginalized">
+
+					<li>{this.props.project.overview}</li>
+					<li>{this.props.project.info}</li>
+				    </div>
+				</div>
+				<div className="trailing">
+				    <ul>
+					<li>&#x25C8;</li>
+					<li>&#x25C8;</li>
+					<li>&#x25C8;</li>
+				    </ul>
+				</div>
 			    </div>
 			</div>
-			<div className="trailing">
-			    <ul>
-			    <li>Ivan</li>
-			    <li>Ivan</li>
-			    <li>Ivan</li>
-			    </ul>
+		    </div>
+		);
+
+	    // All other cases
+	    case 1:
+	    case 2:
+		return (
+		    <div className="container">
+			<div className="row">
+			    <div className="col-md-8 col-md-offset-2 text-center">
+				<div className="projectItem">
+				    <h1>{this.props.project.title}</h1>
+
+				    <div>
+					<img src={this.props.project.photo}/>
+				    </div>
+
+				    <div className="text-left
+					col-md-offset-2
+					col-xs-offset-2
+					marginalized">
+
+					<li>{this.props.project.overview}</li>
+					<li>{this.props.project.info}</li>
+				    </div>
+				</div>
+				<div className="trailing">
+				    <ul>
+					<li>&#x25C8;</li>
+					<li>&#x25C8;</li>
+					<li>&#x25C8;</li>
+				    </ul>
+				</div>
+			    </div>
 			</div>
 		    </div>
-	        </div>
-	    </div>
-	);
+		);		
+
+	    // Must change the length every new project insert
+	    // Remove trailing bulletpoints
+	    case 3:
+		return (
+		    <div className="container">
+			<div className="row">
+			    <div className="col-md-8 col-md-offset-2 text-center">
+				<div className="projectItem">
+				    <h1>{this.props.project.title}</h1>
+
+				    <div>
+					<img src={this.props.project.photo}/>
+				    </div>
+
+				    <div className="text-left
+					col-md-offset-2
+					col-xs-offset-2
+					marginalized">
+					<li>{this.props.project.overview}</li>
+					<li>{this.props.project.info}</li>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div className="buffer"/>
+		    </div>
+		);
+	}
     }
 }
-
 export default BucketItem;
