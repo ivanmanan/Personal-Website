@@ -21,24 +21,28 @@ class App extends Component {
 	    {
 		title: "Bio",
 		photo: "img src='/images/ivan.jpg'",
+		link: "https://www.linkedin.com/in/ivan-manan/",
 		overview: "I am a student at UCLA aspiring to become a full-stack engineer.",
 		info: "Besides engineering, I enjoy traveling, hiking, and watching movies."
 	    },
 	    {
 		title: "Mad Manan's Movie Review",
 		photo: "img src='/images/construction.jpeg",
+		link: "localhost",
 		overview: "Ivan's personal movie reviews.",
 		info: "I absolutely enjoy watching movies, so I like to share my personal reviews on them."
 	    },
 	    {
 		title: "To Be Determined",
 		photo: "img src='/images/construction.jpeg",
+		link: "localhost",
 		overview: "???",
 		info: "???"
 	    },
 	    {
 		title: "Emacs Init File",
 		photo: "img src='/images/construction.jpeg",
+		link: "https://github.com/ivanmanan/emacs/blob/master/.emacs",
 		overview: "This is my Emacs settings.",
 		info: "I always use this Emacs Lisp file to develop anything."
 	    }

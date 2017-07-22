@@ -4,8 +4,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.projectItem h1{
+    font-size: 60px;
+}
 .projectItem li{
-    
+    font-size: 20px;
+    padding-left: 26px;
+    text-indent: -26px;
 }
 .trailing li{
     list-style-type: none;
@@ -18,4 +23,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.marginalized{
+    margin-right: 120px;
 }

@@ -2,6 +2,8 @@
 body{
     font-family: times-new-roman;
     background-color: slategray;
+    /* Removes cursor arrow */
+    cursor: default;
 }
 #top-panel{
     box-shadow:0 0 3px 3px darkslategray;
@@ -28,4 +30,19 @@ body{
 .header-links a{
     text-decoration: none;
     color: black;
+}
+img{
+    margin-top: 4px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h1, li, p{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }

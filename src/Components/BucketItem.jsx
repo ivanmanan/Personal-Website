@@ -13,7 +13,13 @@ class BucketItem extends Component {
 			<div className="projectItem">
 			    <h1>{this.props.project.title}</h1>
 
-			    <div className="text-left col-md-offset-2">
+			    <p>{this.props.project.photo}</p>
+
+			    <div className="text-left
+				col-md-offset-2
+				col-xs-offset-2
+				marginalized">
+
 				<li>{this.props.project.overview}</li>
 				<li>{this.props.project.info}</li>
 			    </div>
