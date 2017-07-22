@@ -1,8 +1,12 @@
+// UI jsx file
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+// Render onto web page
+ReactDOM.render(
+	<div />,
+    document.getElementById('root')
+);

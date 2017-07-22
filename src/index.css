@@ -1,5 +1,31 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+/* CSS file */
+body{
+    font-family: times-new-roman;
+    background-color: slategray;
+}
+#top-panel{
+    box-shadow:0 0 3px 3px darkslategray;
+}
+#heading{
+    margin-left: 25px;
+    font-size: 45px;
+    color: white;
+}
+.header-links li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header-links button{
+    color: white;
+    font-size: 18px;
+    background-color: lightgray;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.header-links button:hover{
+    background-color: mintcream;
+}
+.header-links a{
+    text-decoration: none;
+    color: black;
 }
