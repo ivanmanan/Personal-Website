@@ -1,0 +1,7 @@
+Suggestions:
+	 Use brighter colors. Definitely aim for metallic colors
+	 Try to install some sort of animation
+	 Move bio to end. Highlight my tech skills in front
+	 Middle is all portfolio
+	 Make scrolling animated -- e.g. scroll down once to move
+	      			    	 directly to next project item

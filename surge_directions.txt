@@ -1,0 +1,9 @@
+I am using Surge to host my personal website.
+
+These are the directions to host:
+
+$ npm install -g surge
+$ npm run build
+$ surge
+
+Change project path to the "build" directory

@@ -7,7 +7,7 @@ class BucketItem extends Component {
 	switch(this.props.project.index) {
 	
             // Remove clickable image and induce buffer for phones
-	    case 0:
+	    case "start":
 		return (
 		    <div className="container">
 			<div className="row">
@@ -39,9 +39,37 @@ class BucketItem extends Component {
 		    </div>
 		);
 
+	    // Remove trailing bulletpoints
+	    case "end":
+		return (
+		    <div className="container">
+			<div className="row">
+			    <div className="col-md-8 col-md-offset-2 text-center">
+				<div className="projectItem">
+				    <h1>{this.props.project.title}</h1>
+
+				    <div>
+					<a href={this.props.project.link} target="_blank">
+					    <img src={this.props.project.photo}/>
+					</a>
+				    </div>
+
+				    <div className="text-left
+					col-md-offset-2
+					col-xs-offset-2
+					marginalized">
+					<li>{this.props.project.overview}</li>
+					<li>{this.props.project.info}</li>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div className="buffer"/>
+		    </div>
+		);
+
 	    // All other cases
-	    case 1:
-	    case 2:
+	    default:
 		return (
 		    <div className="container">
 			<div className="row">
@@ -75,35 +103,6 @@ class BucketItem extends Component {
 		    </div>
 		);		
 
-	    // Must change the indices every new project insert
-	    // Remove trailing bulletpoints
-	    case 3:
-		return (
-		    <div className="container">
-			<div className="row">
-			    <div className="col-md-8 col-md-offset-2 text-center">
-				<div className="projectItem">
-				    <h1>{this.props.project.title}</h1>
-
-				    <div>
-					<a href={this.props.project.link} target="_blank">
-					    <img src={this.props.project.photo}/>
-					</a>
-				    </div>
-
-				    <div className="text-left
-					col-md-offset-2
-					col-xs-offset-2
-					marginalized">
-					<li>{this.props.project.overview}</li>
-					<li>{this.props.project.info}</li>
-				    </div>
-				</div>
-			    </div>
-			</div>
-			<div className="buffer"/>
-		    </div>
-		);
 	}
     }
 }

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Bucket from "./Components/Bucket.jsx";
 
 // This file passes down all the info to the other templating
-// Every new project insert -- must edit case numbers in BucketItem.js
+// Every new project: Make sure to rearrange start/end indices
 class App extends Component {
     constructor() {
 	super();
@@ -18,7 +18,7 @@ class App extends Component {
 		link: "#",
 		overview: "I am a student at UCLA and an aspiring full-stack engineer.",
 		info: "I enjoy traveling and exploring new places.",
-		index: 0
+		index: "start"
 	    },
 	    {
 		title: "Manan's Movies",
@@ -27,7 +27,7 @@ class App extends Component {
 		link: "#",
 		overview: "My personal movie reviews.",
 		info: "I have a passion for great films.",
-		index: 1
+		index: "1"
 	    },
 	    {
 		title: "In Development",
@@ -35,16 +35,17 @@ class App extends Component {
 		link: "#",
 		overview: "???",
 		info: "???",
-		index: 2
+		index: "2"
 	    },
 	    {
 		title: "Emacs Init",
 		// Photo needs to have more clarity
+		// This may need to be removed
 		photo: "/images/emacs_display.png",
 		link: "https://github.com/ivanmanan/emacs/blob/master/.emacs",
 		overview: "This is my Emacs display.",
 		info: "Click on the image above for my Emacs Lisp file.",
-		index: 3
+		index: "end"
 	    }
 	]})
     }    
