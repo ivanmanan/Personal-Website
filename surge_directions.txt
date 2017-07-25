@@ -7,3 +7,7 @@ $ npm run build
 $ surge
 
 Change project path to the "build" directory
+
+For custom domains:
+https://surge.sh/help/adding-a-custom-domain
+https://www.namecheap.com/support/knowledgebase/article.aspx/9646/10/how-can-i-set-up-a-cname-record-for-my-domain

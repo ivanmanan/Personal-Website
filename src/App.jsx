@@ -17,7 +17,7 @@ class App extends Component {
 		photo: "/images/ivan.jpg",
 		link: "#",
 		overview: "I am a student at UCLA and an aspiring full-stack engineer.",
-		info: "I enjoy traveling and exploring new places.",
+		info: "I am a traveling enthusiast and an amateur movie critic.",
 		index: "start"
 	    },
 	    {
