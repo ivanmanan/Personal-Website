@@ -4,10 +4,12 @@ These are the directions to host:
 
 $ npm install -g surge
 $ npm run build
-$ surge
+$ surge ~/personal-website/build ivanmanan.com
 
 Change project path to the "build" directory
 
 For custom domains:
 https://surge.sh/help/adding-a-custom-domain
 https://www.namecheap.com/support/knowledgebase/article.aspx/9646/10/how-can-i-set-up-a-cname-record-for-my-domain
+
+For CNAME: Make sure it is Surge's hosting sever as value in Namecheap
