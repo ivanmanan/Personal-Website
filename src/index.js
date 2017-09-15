@@ -3,10 +3,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import "./index.css";
+import Layout from "./Layout";
+import "./styles.css";
 
 // Render onto web page
 ReactDOM.render(
-    <App />,
-    document.getElementById("root")
+  <div>
+    <Layout/>
+    <App/>
+  </div>,
+  document.getElementById("root")
 );

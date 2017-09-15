@@ -36,6 +36,10 @@ body{
     text-decoration: none;
     color: black;
 }
+.logos {
+    width: 42px;
+    height: 42px;
+}
 img{
     margin-top: 4px;
     -khtml-user-select: none;

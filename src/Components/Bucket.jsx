@@ -2,27 +2,25 @@ import React, { Component } from "react";
 import BucketItem from "./BucketItem";
 
 // Template for containers
-
 class Bucket extends Component {
-    render() {
-	let bucketItems;
+  render() {
+	  let bucketItems;
 
-	// Map the projects
-	if(this.props.projects) {
+	  // Map the projects
+	  if(this.props.projects) {
 	    bucketItems = this.props.projects.map(project => {
-		return (
-		    <BucketItem key={project.index} project={project} />
-		);
+		    return (
+		      <BucketItem key={project.index} project={project} />
+		    );
 	    });
-	}
-	
-	console.log(this.props);
-	return (
+	  }
+
+	  return (
 	    <div className="Bucket">
-		{bucketItems}
+		    {bucketItems}
 	    </div>
-	);
-    }
+	  );
+  }
 }
 
 export default Bucket;
