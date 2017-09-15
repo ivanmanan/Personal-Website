@@ -22,21 +22,21 @@ html {
     height: 450px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.trailing li{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 150px;
-    margin-top: 150px;
-    font-size: 20px;
-    color: mintcream;
-    text-shadow: 0.5px 0.5px black;
-}
-.trailing ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+/* .trailing li{ */
+/*     list-style-type: none; */
+/*     margin: 0; */
+/*     padding: 0; */
+/*     margin-bottom: 150px; */
+/*     margin-top: 150px; */
+/*     font-size: 20px; */
+/*     color: mintcream; */
+/*     text-shadow: 0.5px 0.5px black; */
+/* } */
+/* .trailing ul{ */
+/*     list-style-type: none; */
+/*     margin: 0; */
+/*     padding: 0; */
+/* } */
 .marginalized{
     margin-right: 120px;
 }

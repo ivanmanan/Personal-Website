@@ -35,7 +35,7 @@ class App extends Component {
 		    photo: "/images/construction.jpeg",
 		    link: "#",
 		    overview: "Self-diagnosing web application",
-		    info: "List your symptoms, and Doctor Crux will list you suggestions of your illness.",
+		    info: "List your symptoms, and Doctor Crux will suggest you possible diagnoses and treatments.",
 		    index: "2"
 	    },
 	    {

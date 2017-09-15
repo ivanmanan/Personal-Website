@@ -5,3 +5,6 @@ Suggestions:
 	 Middle is all portfolio
 	 Make scrolling animated -- e.g. scroll down once to move
 	      			    	 directly to next project item
+
+Take apple.com as an example of the kind of site I should design it as
+--> remove the concept of cards
