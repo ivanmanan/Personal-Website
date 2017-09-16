@@ -14,30 +14,34 @@ body{
     text-shadow: 0px 0.5px azure;
     display: inline-block;
 }
-.header-links ul{
+#header-links ul{
     white-space: nowrap;
 }
-.header-links li{
+#header-links li{
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
 }
-.header-links button{
+#header-links button{
     color: white;
     font-size: 18px;
     background-color: lightgray;
     margin-top: 18px;
     margin-left: 10px;
 }
-.header-links button:hover{
+#header-links button:hover{
     background-color: mintcream;
 }
-.header-links a{
+#header-links a{
     text-decoration: none;
     color: black;
 }
-.logos {
+.linked-in-logo {
     width: 42px;
+    height: 42px;
+}
+.github-logo {
+    width: 100px;
     height: 42px;
 }
 img{

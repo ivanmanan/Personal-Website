@@ -12,24 +12,24 @@ const navbar = (
 	      <h1 className="navbar-brand" id="heading">Ivan Manan</h1>
 	    </div>
 
-	    <div className="header-links">
+	    <div className="navbar-collapse collapse" id="header-links">
 	      <ul className="nav navbar-nav navbar-right">
 
 	        <li>
-            <a href="https://www.linkedin.com/ivanmanan/" target="_blank">
-              <img className ="logos" src="/images/linkedin.png"/>
+            <a href="https://www.linkedin.com/in/ivanmanan/" target="_blank">
+              <img className ="linked-in-logo" src="/images/linkedin.png"/>
             </a>
           </li>
 
           <li>
             <a href="https://github.com/ivanmanan" target="_blank">
-              <img className="logos" src="/images/github.png"/>
+              <img className="github-logo" src="/images/github.png"/>
             </a>
           </li>
 
 	        <li>
             <button className="btn navbar-btn">
-              <a href="#">Mad Manan's Movie Reviews</a>
+              <a href="#">JumbleXplore</a>
             </button>
           </li>
 
