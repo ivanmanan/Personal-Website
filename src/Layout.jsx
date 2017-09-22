@@ -1,13 +1,19 @@
 import React, { Component } from "react";
 
-/* Must make the containers bigger on phone screens*/
-
 // Navbar for Personal Website
 const navbar = (
 
-  <nav className="navbar navbar-inverse navbar-fixed-top min-width-navbar" id="top-panel">
+  <nav className="navbar navbar-inverse navbar-fixed-top" id="top-panel">
     <div className="container-fluid">
-
+      <div className="navbar-right">
+        <button type="button" className="pull-right navbar-toggle"
+                data-toggle="collapse" data-target="#header-links"
+                id="navbar-toggle">
+          <span className="icon-bar"></span>
+          <span className="icon-bar"></span>
+          <span className="icon-bar"></span>
+        </button>
+      </div>
 	    <div className="navbar-header">
 	      <h1 className="navbar-brand" id="heading">Ivan Manan</h1>
 	    </div>
@@ -35,7 +41,6 @@ const navbar = (
 
 	      </ul>
 	    </div>
-
     </div>
   </nav>
 );

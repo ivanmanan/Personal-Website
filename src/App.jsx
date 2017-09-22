@@ -17,7 +17,7 @@ class App extends Component {
 		    photo: "/images/ivan.jpg",
 		    link: "#",
 		    overview: "Student at UCLA and an aspiring full-stack engineer.",
-		    info: "Traveling enthusiast. Best place I been to: Fingal's Cave, Scotland.",
+		    info: "Traveling enthusiast. Favorite place: Fingal's Cave.",
 		    index: "start"
 	    },
 	    {
@@ -25,26 +25,26 @@ class App extends Component {
 		    // Photo will be a screenshot of my project
 		    photo: "/images/construction.jpeg",
 		    link: "#",
-		    overview: "My personal movie reviews.",
-		    info: "I have a passion for great films.",
+		    overview: "Social media platform for traveling enthusiasts.",
+		    info: "Document your travels and share with everyone.",
 		    index: "1"
 	    },
 	    {
 		    title: "Doctor Crux",
-		    // Photo will be a screenshot of my project
-		    photo: "/images/construction.jpeg",
+		    // Photo will be a screenshot of my project with an inputted symptom
+		    photo: "/images/Crux.png",
 		    link: "#",
-		    overview: "Self-diagnosing web application",
-		    info: "List your symptoms, and Doctor Crux will suggest you possible diagnoses and treatments.",
+		    overview: "Self-diagnosing illnesses web application.",
+		    info: "List your symptoms, and Doctor Crux will suggest diagnoses and treatments.",
 		    index: "2"
 	    },
 	    {
 		    title: "FrackMan",
 		    // Must take photo of the FrackMan video game on Visual Studio
 		    photo: "/images/emacs_display.png",
-		    link: "https://github.com/ivanmanan/emacs/blob/master/.emacs",
-		    overview: "This is my Emacs display.",
-		    info: "Click on the image above for my Emacs Lisp file.",
+		    link: "https://github.com/ivanmanan/FrackMan",
+		    overview: "Video game programmed in C++.",
+		    info: "Score as many points as possible by collecting oil barrels while avoiding protesters..",
 		    index: "end"
 	    }
 	  ]})
