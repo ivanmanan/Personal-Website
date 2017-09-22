@@ -1,8 +1,14 @@
+html {
+    width: 98vw;
+}
 body{
-    font-family: times-new-roman;
+    font-family: times-new-roman, Times, serif;
     background-color: slategray;
     /* Removes cursor arrow */
     cursor: default;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
 }
 #top-panel{
     box-shadow:0 0 3px 3px darkslategray;
@@ -57,4 +63,33 @@ h1, li, p{
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+}
+
+/* Project Items */
+.projectItem{
+    background-color: silver;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.projectItem h1{
+    font-size: 110px;
+    text-shadow: 2px 2px white;
+}
+.projectItem li{
+    font-size: 20px;
+    padding-left: 26px;
+    text-indent: -26px;
+    margin-top: 15px;
+}
+.projectItem img{
+    width: 600px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.marginalized{
+    margin-right: 120px;
+}
+.buffer{
+    margin-top: 10px;
 }

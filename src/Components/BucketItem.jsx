@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./styles.css";
 
 // Template for containers
 class BucketItem extends Component {
@@ -16,7 +15,7 @@ class BucketItem extends Component {
                   <h1>{this.props.project.title}</h1>
 
                   <div>
-                    <img src={this.props.project.photo}/>
+                    <img src={this.props.project.photo} alt="Project"/>
                   </div>
 
                   <div className="text-left
@@ -47,8 +46,8 @@ class BucketItem extends Component {
                   <h1>{this.props.project.title}</h1>
 
                   <div>
-                    <a href={this.props.project.link} target="_blank">
-                      <img src={this.props.project.photo}/>
+                    <a href={this.props.project.link} target="_blank" rel="noopener noreferrer">
+                      <img src={this.props.project.photo} alt="Project"/>
                     </a>
                   </div>
 
@@ -76,8 +75,8 @@ class BucketItem extends Component {
                   <h1>{this.props.project.title}</h1>
 
                   <div>
-                    <a href={this.props.project.link} target="_blank">
-                      <img src={this.props.project.photo}/>
+                    <a href={this.props.project.link} target="_blank" rel="noopener noreferrer">
+                      <img src={this.props.project.photo} alt="Project"/>
                     </a>
                   </div>
 
