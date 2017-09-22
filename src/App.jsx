@@ -44,7 +44,7 @@ class App extends Component {
 		    photo: "/images/emacs_display.png",
 		    link: "https://github.com/ivanmanan/FrackMan",
 		    overview: "Video game programmed in C++.",
-		    info: "Score as many points as possible by collecting oil barrels while avoiding protesters..",
+		    info: "Score as many points as possible by collecting oil barrels while avoiding protesters.",
 		    index: "end"
 	    }
 	  ]})
