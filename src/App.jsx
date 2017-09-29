@@ -19,7 +19,7 @@ class App extends Component {
 		    overview: "Student at UCLA and an aspiring full-stack engineer.",
 		    info: "Traveling enthusiast. Favorite place: Fingal's Cave.",
 		    index: "start"
-	    },
+	    },/*
 	    {
 		    title: "JumbleXplore",
 		    // Photo will be a screenshot of my project
@@ -28,7 +28,7 @@ class App extends Component {
 		    overview: "Social media platform for traveling enthusiasts.",
 		    info: "Document your travels and share with everyone.",
 		    index: "1"
-	    },
+	    },*/
 	    {
 		    title: "Doctor Crux",
 		    // Photo will be a screenshot of my project with an inputted symptom
