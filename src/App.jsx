@@ -41,7 +41,7 @@ class App extends Component {
 	    {
 		    title: "FrackMan",
 		    // Must take photo of the FrackMan video game on Visual Studio
-		    photo: "/images/emacs_display.png",
+		    photo: "/images/FrackMan.png",
 		    link: "https://github.com/ivanmanan/FrackMan",
 		    overview: "Video game programmed in C++.",
 		    info: "Score as many points as possible by collecting oil barrels while avoiding protesters.",
