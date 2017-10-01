@@ -35,7 +35,7 @@ const navbar = (
 
 	        <li>
             <button className="btn navbar-btn">
-              <a href="/" rel="noopener noreferrer">Doctor Crux</a>
+              <a href="https://github.com/ivanmanan/Doctor-Crux" rel="noopener noreferrer" target="_blank">Doctor Crux</a>
             </button>
           </li>
 
