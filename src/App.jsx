@@ -19,32 +19,31 @@ class App extends Component {
 		    overview: "Student at UCLA and an aspiring full-stack engineer.",
 		    info: "Traveling enthusiast. Favorite place: Fingal's Cave.",
 		    index: "start"
-	    },/*
-	    {
-		    title: "JumbleXplore",
-		    // Photo will be a screenshot of my project
-		    photo: "/images/construction.jpeg",
-		    link: "#",
-		    overview: "Social media platform for traveling enthusiasts.",
-		    info: "Document your travels and share with everyone.",
-		    index: "1"
-	    },*/
-	    {
-		    title: "Doctor Crux",
-		    // Photo will be a screenshot of my project with an inputted symptom
-		    photo: "/images/Crux.png",
-		    link: "#",
-		    overview: "Self-diagnosing illnesses web application.",
-		    info: "List your symptoms, and Doctor Crux will suggest diagnoses and treatments.",
-		    index: "2"
 	    },
 	    {
 		    title: "FrackMan",
-		    // Must take photo of the FrackMan video game on Visual Studio
+		    // Photo will be a screenshot of my project
 		    photo: "/images/FrackMan.png",
 		    link: "https://github.com/ivanmanan/FrackMan",
 		    overview: "Video game programmed in C++.",
 		    info: "Score as many points as possible by collecting oil barrels while avoiding protesters.",
+		    index: "1"
+	    },
+	    {
+		    title: "Doctor Crux",
+		    photo: "/images/Crux.png",
+		    link: "https://github.com/ivanmanan/Doctor-Crux",
+		    overview: "Self-diagnosis web application.",
+		    info: "List your symptoms, and Doctor Crux will suggest diagnoses and treatments.",
+		    index: "2"
+	    },
+	    {
+		    title: "JumbleXplore",
+		    photo: "/images/construction.jpeg",
+		    link: "https://github.com/ivanmanan/JumbleXplore",
+		    overview: "Project currently in construction. Expected completion end of this Winter.",
+        // overview: A social media platform for traveling enthusiasts.",
+		    info: "Document your travels and share with others.",
 		    index: "end"
 	    }
 	  ]})
