@@ -61,7 +61,7 @@ class BucketItem extends Component {
                 </div>
               </div>
             </div>
-            <div className="buffer"/>
+            <div className="end-buffer"/>
           </div>
         );
 

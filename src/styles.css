@@ -18,7 +18,7 @@ body{
 }
 #heading{
     margin-left: 45px;
-    font-size: 5vw;
+    font-size: 600%;
     color: white;
     text-shadow: 0px 0.5px azure;
     display: inline-block;
@@ -81,28 +81,33 @@ h1, li, p{
     padding-bottom: 10px;
 }
 .projectItem h1{
-    font-size: 8vw;
+    font-size: 1100%;
+    /* font-size: 6vw; */
     text-shadow: 2px 2px white;
 }
 .projectItem li{
     font-size: 325%;
-    padding-left: 8%;
-    text-indent: -8.8%;
-    /* font-size: 2vw; */
+    padding-left: 3%;
+    text-indent: -8.3%;
+    /* font-size: 3vw; */
     /* padding-left: 2.8vw; */
-    /* text-indent: -2.8vw; */
+    /* text-indent: -4vw; */
     margin-top: 15px;
 }
 .projectItem img{
-    max-width: 70%;
-    max-height: 60%;
+    max-width: 80%;
+    max-height: 70%;
     width: auto;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .marginalized{
-    margin-right: 120px;
+    margin-right: 12%;
 }
-.buffer{
+.transition {
+    padding-top: 30px;
+}
+.end-buffer{
     margin-top: 10px;
+    margin-bottom: 50px;
 }

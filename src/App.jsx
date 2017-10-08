@@ -44,8 +44,16 @@ class App extends Component {
 		    overview: "Project currently in construction. Expected completion end of this Winter.",
         // overview: A social media platform for traveling enthusiasts.",
 		    info: "Document your travels and share with others.",
+		    index: "3"
+	    },
+      {
+        title: "UAS",
+		    photo: "/images/construction.jpeg",
+		    link: "https://github.com/uas-at-ucla/suas_2018/tree/master/ground",
+		    overview: "Project currently in construction. This is my team's source code for our autonomous drone.",
+		    info: "Will be directing the ground station team for the June 2018 AUVSI SUAS competition.",
 		    index: "end"
-	    }
+      }
 	  ]})
   }
   render() {
