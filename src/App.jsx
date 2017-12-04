@@ -20,6 +20,14 @@ class App extends Component {
 		    info: "Traveling enthusiast. Favorite place: Fingal's Cave.",
 		    index: "start"
 	    },
+      {
+		    title: "Family Watch",
+		    photo: "/images/family-watch.png",
+		    link: "https://github.com/ivanmanan/family-watch",
+		    overview: "Suspect your children skipping school? Now you can track their location!",
+		    info: "When logged in, the application tracks GPS and displays location history of other users.",
+		    index: "1"
+      },
 	    {
 		    title: "FrackMan",
 		    // Photo will be a screenshot of my project
@@ -27,7 +35,7 @@ class App extends Component {
 		    link: "https://github.com/ivanmanan/FrackMan",
 		    overview: "Video game programmed in C++.",
 		    info: "Score as many points as possible by collecting oil barrels while avoiding protesters.",
-		    index: "1"
+		    index: "2"
 	    },
 	    {
 		    title: "Doctor Crux",
@@ -35,7 +43,7 @@ class App extends Component {
 		    link: "https://github.com/ivanmanan/Doctor-Crux",
 		    overview: "Self-diagnosis web application.",
 		    info: "List your symptoms, and Doctor Crux will suggest diagnoses and treatments.",
-		    index: "2"
+		    index: "3"
 	    },
 	    {
 		    title: "JumbleXplore",
@@ -44,7 +52,7 @@ class App extends Component {
 		    overview: "Project currently in construction. Expected completion end of this Winter.",
         // overview: A social media platform for traveling enthusiasts.",
 		    info: "Document your travels and share with others.",
-		    index: "3"
+		    index: "4"
 	    },
       {
         title: "UAS",
