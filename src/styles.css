@@ -19,7 +19,8 @@ body{
 #heading{
     margin-left: 45px;
     /* font-size: 600%; */
-    font-size: 4vw;
+    /* font-size: 4vw; */
+    font-size: 4vmax;
     color: white;
     text-shadow: 0px 0.5px azure;
     display: inline-block;
@@ -47,7 +48,7 @@ body{
 .github-logo {
     width: 100px;
     height: 42px;
-    margin-right: 10vw;
+    margin-right: 6vw;
 }
 img{
     -khtml-user-select: none;
@@ -72,8 +73,7 @@ h1, li, p{
     padding-bottom: 10px;
 }
 .projectItem h1{
-    font-size: 1100%;
-    /* font-size: 6vw; */
+    font-size: 900%;
     text-shadow: 2px 2px white;
 }
 .projectItem li{
@@ -86,8 +86,8 @@ h1, li, p{
     margin-top: 15px;
 }
 .projectItem img{
-    max-width: 80%;
-    max-height: 70%;
+    max-width: 75%;
+    max-height: 65%;
     width: auto;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
