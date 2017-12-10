@@ -18,11 +18,11 @@ body{
 }
 #heading{
     margin-left: 45px;
-    font-size: 600%;
+    /* font-size: 600%; */
+    font-size: 4vw;
     color: white;
     text-shadow: 0px 0.5px azure;
     display: inline-block;
-    padding-bottom: 8%;
 }
 #header-links ul{
     white-space: nowrap;
@@ -33,17 +33,6 @@ body{
     margin-right: 30px;
     margin-top: 1.3%;
 }
-#header-links button{
-    color: white;
-    font-size: 18px;
-    background-color: lightgray;
-    margin-top: 18px;
-    margin-left: 10px;
-    margin-right: 40px;
-}
-#header-links button:hover{
-    background-color: mintcream;
-}
 #header-links a{
     text-decoration: none;
     color: black;
@@ -53,10 +42,12 @@ body{
     max-height: 42px;
     width: auto;
     height: auto;
+    margin-right: 3vw;
 }
 .github-logo {
     width: 100px;
     height: 42px;
+    margin-right: 10vw;
 }
 img{
     -khtml-user-select: none;

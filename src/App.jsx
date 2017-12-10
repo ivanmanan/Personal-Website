@@ -23,7 +23,7 @@ class App extends Component {
       {
 		    title: "Family Watch",
 		    photo: "/images/family-watch.png",
-		    link: "https://github.com/ivanmanan/family-watch",
+		    link: "https://www.youtube.com/watch?v=kG9u_v0YBbw",
 		    overview: "Suspect your children skipping school? Now you can track their location!",
 		    info: "When logged in, the application tracks GPS and displays location history of other users.",
 		    index: "1"
