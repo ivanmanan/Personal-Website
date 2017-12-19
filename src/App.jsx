@@ -22,8 +22,8 @@ class App extends Component {
 	    },
 	    {
 		    title: "Travel Share",
-		    photo: "/images/construction.jpeg",
-        // Need to replace link with http://travelsharego.com
+		    photo: "/images/travelshare.png",
+            // Need to replace link with http://travelsharego.com
 		    link: "https://github.com/ivanmanan/Travel-Share",
 		    overview: "Project currently in construction. Expected completion end of December.",
 		    info: "Document your travels and share with others.",
