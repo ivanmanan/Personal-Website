@@ -4,7 +4,7 @@ These are the directions to host:
 
 $ npm install -g surge
 $ npm run build
-$ surge ~/personal-website/build ivanmanan.com
+$ surge ~/old-personal-website/build ivanmanan.com
 
 Change project path to the "build" directory
 
