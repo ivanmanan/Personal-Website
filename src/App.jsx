@@ -39,7 +39,7 @@ class App extends Component {
 	    {
 		    title: "Doctor Crux",
 		    photo: "/images/Crux.png",
-		    link: "https://github.com/ivanmanan/Doctor-Crux",
+		    link: "https://github.com/ivanmanan/Old-Doctor-Crux",
 		    overview: "Self-diagnosis web application.",
 		    info: "List your symptoms, and Doctor Crux will suggest diagnoses and treatments.",
 		    index: "3"
