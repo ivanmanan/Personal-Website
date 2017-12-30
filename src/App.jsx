@@ -56,7 +56,7 @@ class App extends Component {
         title: "UAS",
 		    photo: "/images/construction.jpeg",
 		    link: "#",
-		    overview: "Project currently in construction. Repository has been privated.",
+		    overview: "Project currently in construction. Repository has been privatized.",
 		    info: "Will be directing the ground station team for the June 2018 AUVSI SUAS competition.",
 		    index: "end"
       }
