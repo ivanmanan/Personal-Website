@@ -60,7 +60,7 @@ class App extends Component {
 		    info: "Will be directing the ground station team for the June 2018 AUVSI SUAS competition.",
 		    index: "end"
       }
-	  ]})
+	  ]});
   }
   render() {
 	  return (

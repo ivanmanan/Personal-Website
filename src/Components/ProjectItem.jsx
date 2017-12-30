@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Template for containers
-class BucketItem extends Component {
+class ProjectItem extends Component {
   render() {
     switch(this.props.project.index) {
 
@@ -36,7 +36,7 @@ class BucketItem extends Component {
           </div>
         );
 
-      // Remove transition bulletpoints
+      // Remove transition margin
       case "end":
         return (
           <div className="container">
@@ -100,4 +100,4 @@ class BucketItem extends Component {
     }
   }
 }
-export default BucketItem;
+export default ProjectItem;
