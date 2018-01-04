@@ -47,7 +47,7 @@ class App extends Component {
       {
 		    title: "Travel Share",
 		    photo: "/images/travelshare.png",
-		    link: "#",
+		    link: "https://github.com/ivanmanan/Travel-Share",
 		    overview: "Project currently in construction.",
 		    info: "Document your travels and share with others.",
 		    index: "4"
