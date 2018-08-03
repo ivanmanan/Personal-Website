@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "minimatch": "^3.0.4",
-    "react": "^15.6.1",
+    "react": "^16.4.2",
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "BROWSER=none react-scripts start",
