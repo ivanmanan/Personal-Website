@@ -13,11 +13,9 @@ class ProjectItem extends Component {
               <div className="col-md-8 col-md-offset-2 text-center">
                 <div className="projectItem">
                   <h1>{this.props.project.title}</h1>
-
                   <div>
                     <img src={this.props.project.photo} alt="Project"/>
                   </div>
-
                   <div className="text-left
                     col-md-offset-2
                     col-xs-offset-2
@@ -27,9 +25,6 @@ class ProjectItem extends Component {
                   </div>
                 </div>
                 <div className="transition">
-                  <ul>
-
-                  </ul>
                 </div>
               </div>
             </div>
@@ -46,16 +41,18 @@ class ProjectItem extends Component {
                   <h1>{this.props.project.title}</h1>
 
                   <div>
-                    <a href={this.props.project.link} target="_blank" rel="noopener noreferrer">
-                      <img src={this.props.project.photo} alt="Project"/>
-                    </a>
+                    <img src={this.props.project.photo} alt="Project"/>
                   </div>
 
                   <div className="text-left
                     col-md-offset-2
                     col-xs-offset-2
                     marginalized">
-                    <li>{this.props.project.overview}</li>
+                    <li>
+                      <a href={this.props.project.link} target="_blank" rel="noopener noreferrer">
+                        {this.props.project.linkInfo}
+                      </a>
+                    </li>
                     <li>{this.props.project.info}</li>
                   </div>
                 </div>
@@ -65,7 +62,6 @@ class ProjectItem extends Component {
           </div>
         );
 
-      // All other cases
       default:
         return (
           <div className="container">
@@ -75,23 +71,22 @@ class ProjectItem extends Component {
                   <h1>{this.props.project.title}</h1>
 
                   <div>
-                    <a href={this.props.project.link} target="_blank" rel="noopener noreferrer">
-                      <img src={this.props.project.photo} alt="Project"/>
-                    </a>
+                    <img src={this.props.project.photo} alt="Project"/>
                   </div>
 
                   <div className="text-left
                     col-md-offset-2
                     col-xs-offset-2
                     marginalized">
-                    <li>{this.props.project.overview}</li>
+                    <li>
+                      <a href={this.props.project.link} target="_blank" rel="noopener noreferrer">
+                        {this.props.project.linkInfo}
+                      </a>
+                    </li>
                     <li>{this.props.project.info}</li>
                   </div>
                 </div>
                 <div className="transition">
-                  <ul>
-
-                  </ul>
                 </div>
               </div>
             </div>
