@@ -101,3 +101,10 @@ h1, li, p{
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
+#profile-picture {
+    max-width: 45%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+}

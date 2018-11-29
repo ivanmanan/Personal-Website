@@ -14,7 +14,7 @@ class App extends Component {
 	this.setState({projects: [
 	  {
 		title: "Bio",
-		photo: "/images/ivan.jpg",
+		photo: "/images/new-ivan.jpg",
 		link: "#",
 		overview: "Student at UCLA and aspiring software engineer.",
 		info: "Traveling enthusiast. Favorite place: Fingal's Cave.",

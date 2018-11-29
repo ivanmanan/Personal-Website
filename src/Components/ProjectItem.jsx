@@ -14,7 +14,7 @@ class ProjectItem extends Component {
                 <div className="projectItem">
                   <h1>{this.props.project.title}</h1>
                   <div>
-                    <img src={this.props.project.photo} alt="Project"/>
+                    <img id="profile-picture" src={this.props.project.photo} alt="Project"/>
                   </div>
                   <div className="text-left
                     col-md-offset-2
