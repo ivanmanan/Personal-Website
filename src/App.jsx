@@ -23,7 +23,7 @@ class App extends Component {
       {
 		title: "Travel Share",
 		photo: "/images/travelshare.png",
-		link: "http://travelsharego.com",
+		link: "http://travelsharego.live",
 		linkInfo: "See Application Live",
 		info: "Document your travels and share with others.",
 		index: "1"
