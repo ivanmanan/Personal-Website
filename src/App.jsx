@@ -13,9 +13,9 @@ class App extends Component {
   componentWillMount() {
 	  this.setState({projects: [{
 		  title: "Bio",
-		  photo: "/images/new-ivan.jpg",
+		  photo: "/images/new-ivan.png",
 		  link: "#",
-		  overview: "Student at UCLA and aspiring software engineer.",
+		  overview: "New graduate from UCLA and aspiring software engineer.",
 		  info: "Traveling enthusiast. Favorite place: Fingal's Cave.",
 		  index: "start"
 	  }, {
