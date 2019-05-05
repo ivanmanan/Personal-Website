@@ -22,14 +22,14 @@ class App extends Component {
       title: "Tad the Therapist",
       photo: "/images/tad.png",
       link: "http://github.com/ivanmanan/Tad-The-Therapist",
-      linkInfo: "GitHub Source Code",
+      linkInfo: "GitHub Repository",
       info: "Tad is a virtual assistant that provides counseling. Tad utilizes speech signal processing and hidden Markov models for automatic speech recognition.",
       index: "1"
     }, {
 		  title: "Travel Share",
 		  photo: "/images/travelshare.png",
-		  link: "http://travelsharego.live",
-		  linkInfo: "See Application Live",
+		  link: "https://github.com/ivanmanan/Travel-Share",
+		  linkInfo: "GitHub Repository",
 		  info: "Document your travels and share with others.",
 		  index: "2"
 	  }, {
@@ -43,7 +43,7 @@ class App extends Component {
 		  title: "FrackMan",
 		  photo: "/images/FrackMan.png",
 		  link: "https://github.com/ivanmanan/FrackMan",
-		  linkInfo: "GitHub Source Code",
+		  linkInfo: "GitHub Repository",
 		  info: "Score as many points as possible by collecting oil barrels while avoiding protesters.",
 		  index: "4"
 	  }, {
