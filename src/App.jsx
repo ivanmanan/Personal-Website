@@ -5,10 +5,10 @@ import Project from "./Components/Project.jsx";
 // Every new project: Make sure to rearrange start/end indices
 class App extends Component {
   constructor() {
-	super();
-	this.state = {
-	  projects: []
-	}
+	  super();
+	  this.state = {
+	    projects: []
+	  }
   }
   componentWillMount() {
 	  this.setState({projects: [{
@@ -61,14 +61,14 @@ class App extends Component {
 		  info: "Directed the ground station team for the June 2018 AUVSI SUAS competition.",
 		  index: "end"
     }
-	]});
+	  ]});
   }
   render() {
-	return (
-	  <div className="App">
-		<Project projects={this.state.projects} />
-	  </div>
-	);
+	  return (
+	    <div className="App">
+		    <Project projects={this.state.projects} />
+	    </div>
+	  );
   }
 }
 export default App;

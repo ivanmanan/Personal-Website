@@ -14,14 +14,15 @@ const navbar = (
           <span className="icon-bar"></span>
         </button>
       </div>
-	    <div className="navbar-header">
-	      <h1 className="navbar-brand" id="heading">Ivan Manan</h1>
-	    </div>
 
-	    <div className="navbar-collapse collapse" id="header-links">
-	      <ul className="nav navbar-nav navbar-right">
+      <div className="navbar-header">
+        <h1 className="navbar-brand" id="heading">Ivan Manan</h1>
+      </div>
 
-	        <li>
+      <div className="navbar-collapse collapse" id="header-links">
+        <ul className="nav navbar-nav navbar-right">
+
+          <li>
             <a href="https://www.linkedin.com/in/ivanmanan/"
                target="_blank" rel="noopener noreferrer">
               <img className ="linked-in-logo"
@@ -37,8 +38,8 @@ const navbar = (
             </a>
           </li>
 
-	      </ul>
-	    </div>
+        </ul>
+      </div>
     </div>
   </nav>
 );
