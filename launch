@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo npm run build
+npm run build
 surge ./build/ ivanmanan.com
