@@ -86,7 +86,7 @@ h1, li, p{
 }
 .projectItem img{
     max-width: 75%;
-    max-height: 65%;
+    max-height: 25%;
     width: auto;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
